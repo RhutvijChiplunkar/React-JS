@@ -1,0 +1,28 @@
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+
+/* This is the new CSS example added, it also works if added in 'App.css'
+div .App{
+  border:3px solid red;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+} 
+*/
+.testComp{
+  color: rgb(0, 0, 0);
+  background-color: burlywood;
+  text-align: center;
+}
