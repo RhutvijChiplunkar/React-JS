@@ -33,11 +33,10 @@ const Test= () => {
                 Func('ABC');
             }}>Click me here!!</button>
 
-            {/* useState HOOk 
+            {/* useState HOOK  */} 
             <h1>{name}</h1>
-            {/*this will dynamically change value as "useState" is used
-            <button onClick={HooksEg}>CLick to check HOOKS working</button>   
-        */}     
+            {/*this will dynamically change value as "useState" is used  */} 
+            <button onClick={HooksEg}>CLick to check HOOKS working</button>       
         </div>
 
      );
