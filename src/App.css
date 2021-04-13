@@ -37,6 +37,11 @@ div .App{
   margin-right: 150px;
 } 
 
+.preview{
+  border: 2px black;
+  border-radius: 5px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -26,3 +26,7 @@ div .App{
   background-color: burlywood;
   text-align: center;
 }
+.comp .preview{
+  border: 2px solid black;
+  margin:5px;
+}

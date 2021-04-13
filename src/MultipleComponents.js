@@ -36,7 +36,10 @@ const Test= () => {
             {/* useState HOOK  */} 
             <h1>{name}</h1>
             {/*this will dynamically change value as "useState" is used  */} 
-            <button onClick={HooksEg}>CLick to check HOOKS working</button>       
+            <button onClick={HooksEg}>CLick to check HOOKS working</button>    
+
+            
+
         </div>
 
      );
