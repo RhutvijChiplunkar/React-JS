@@ -30,3 +30,10 @@ div .App{
   border: 2px solid black;
   margin:5px;
 }
+
+.IPLteams{
+  border: 2px solid black;
+  text-align: center;
+  color: red;
+  background-color: lightgreen;
+}
