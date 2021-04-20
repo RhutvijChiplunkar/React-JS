@@ -2,6 +2,7 @@
 import './App.css';
 import Test from './MultipleComponents';
 import ListsOp from './MultipleComponents2';
+import Teams from './teams';
 
   function App() {
     var x=100;
@@ -27,6 +28,7 @@ import ListsOp from './MultipleComponents2';
 
 
       <ListsOp />
+      <Teams />
       </div>
   );
 }
