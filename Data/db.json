@@ -1,0 +1,26 @@
+{   
+    "IPLteams":[
+        { 
+            "name":"RCB", 
+            "captain":"Kohli",
+            "rank":1
+        },
+        {
+            "name":"CSK", 
+            "captain":"Dhoni",
+            "rank":2
+        },
+        {
+            "name":"MI", 
+            "captain":"Sharma",
+            "rank":3
+        },
+        {
+            "name":"PBKS", 
+            "captain":"Rahul",
+            "rank":4
+        }
+        
+        
+    ]
+}
