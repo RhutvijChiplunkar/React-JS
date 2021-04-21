@@ -30,11 +30,12 @@
 
 /* Extra added CSS, this also works when we add same in 'index.css' */
 div .App{
-  border:2px solid lightblue;
-  border-radius: 20px;
-  padding: 20px;
-  margin-left: 150px;
-  margin-right: 150px;
+  padding: 15px;
+  /* margin-left: 150px;
+  margin-right: 150px; */
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
 } 
 
 .preview{
