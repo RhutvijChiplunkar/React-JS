@@ -10,9 +10,9 @@ import './index.css'
     var y="Rhutvij Chiplunkar";
     var link="https://www.cricbuzz.com/"; */
     return (
-      <div className="App">
+      <div className="App"> 
       <div className="title">
-        <h1>Welcome to React</h1>
+        <h1>Welcome to React JS</h1>
       </div>
 
       {/* Component created in other JS file and imported 

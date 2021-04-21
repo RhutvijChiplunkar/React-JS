@@ -41,6 +41,7 @@ div .App{
 .preview{
   border: 2px black;
   border-radius: 5px;
+  color: pink;
 }
 
 @keyframes App-logo-spin {
