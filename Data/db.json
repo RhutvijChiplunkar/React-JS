@@ -19,8 +19,30 @@
             "name":"PBKS", 
             "captain":"Rahul",
             "rank":4
-        }
+        },
+        {
+            "name":"DC", 
+            "captain":"Pant",
+            "rank":5
+        },
         
+        {
+            "name":"KKR", 
+            "captain":"Morgan",
+            "rank":6
+        },
+        
+        {
+            "name":"RR", 
+            "captain":"Sanju",
+            "rank":7
+        },
+        
+        {
+            "name":"SRH", 
+            "captain":"Warner",
+            "rank":8
+        }        
         
     ]
 }
