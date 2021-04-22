@@ -1,0 +1,13 @@
+
+.testComp{
+    color: rgb(0, 0, 0);
+    background-color: burlywood;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .comp .preview{
+    border: 2px solid black;
+    margin:5px;
+  }
+  
+  

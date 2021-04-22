@@ -1,0 +1,14 @@
+.preview{
+    border: 2px black;
+    border-radius: 5px;
+    color: red;
+}
+
+.IPLteams{
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+    color: red;
+    background-color: lightgreen;
+}  
