@@ -1,34 +1,48 @@
-//import logo from './logo.svg';
-import './App.css';
+/* import logo from './logo.svg';*/
 import Test from './Components/MultipleComponents';
-import ListsOp from './Components/MultipleComponents2';
-import Teams from './Components/teams';
+import ListsOp from './Components/MultipleComponents2'; 
+import PropsEg from './Components/PropsExample';
+import Teams from './Components/Teams';
+import Navbar from './Components/Navbar';
+import TeamList from './Components/TeamList'
+import './App.css';
 import './index.css'
+import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
+
 
   function App() {
     /* var x=100;
     var y="Rhutvij Chiplunkar";
     var link="https://www.cricbuzz.com/"; */
+
     return (
-      <div className="App"> 
-      <div className="title">
-        <h1>Welcome to React JS</h1>
-      </div>
+      <Router>
+        <div className="App"> 
 
-      {/* Component created in other JS file and imported 
-      <Test></Test>
-      <h2>{x}</h2>     {/* dynamic values for variables
-      <h2>Creator of this page is {y}</h2>
+          <div className="nv">
+            <Navbar/>
+          </div>
 
-      <h3>Random number between 1-100 is::{Math.floor(Math.random()*100)}</h3>
+          <div className="title">
+             <h1>Welcome to React JS</h1> 
+          </div>
 
-      <a href={link}>Click Here to go to CRICKBUZZ!!</a>
-      <br></br>
-      
+          <div className="main-paths">
+            <Switch>
+                <Route exact path="/teams">
+                    <Teams/>
+                </Route>
+                <Route exact path="/list">
+                    <ListsOp/>
+                </Route>
+                <Route exact path="/test">
+                    <Test/>
+                </Route>
+            </Switch>
+          </div>
 
-      <ListsOp />*/}
-      <Teams />
-      </div>
+        </div>
+      </Router>
   );
 }
 
