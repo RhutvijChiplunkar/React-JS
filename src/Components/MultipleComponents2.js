@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
 import PropsEg from './PropsExample';
+import './CSS/MultipleComponents2.css'
 
 const ListsOp = () => {
     const[list,setLists]=useState([

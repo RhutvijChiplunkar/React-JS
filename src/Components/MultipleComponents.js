@@ -1,5 +1,5 @@
 //import './index.css'
-
+import './CSS/MultipleComponents.css'
 import { useState } from 'react';
 
 const Test= () => {
