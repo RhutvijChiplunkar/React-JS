@@ -8,9 +8,12 @@ const useFetch = (url) => {
    
        //fetching data from json server with use effect
        useEffect(()=>{
+            /* This is used to stop the fetch */
+            const abortConst=new AbortController();
+
            setTimeout(()=>{
                //make a fetch request ( it will get the required data from the db.json file)
-               fetch(url)
+               fetch(url,{signal:abortConst.signal})
                .then(res=>{
                    //returns another promise
                    if(!res.ok){
@@ -19,18 +22,24 @@ const useFetch = (url) => {
                    return res.json();
                })
                .then(data=>{
-                   console.log(data);
                    setData(data);
                    setPending(false);
                    setError(null);
                })
                //this executes when error occurs or user throws an error
                .catch(err=>{
+                   if(err.name ==='AbortError'){
+                       console.log("fetch abborted successfully");
+                   }
+                   else{
                    setPending(false);
                    setError(err.message);
+                }
                })
-           },2500);
-   
+           },1000);
+           
+           /* cleanup function using abortConst*/
+           return ()=>abortConst.abort();
        },[url]);
        return {data, error, isPending};
 }
