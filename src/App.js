@@ -8,7 +8,7 @@ import TeamList from './Components/TeamList'
 import './App.css';
 import './index.css'
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
-
+import ListDetails from './Components/ListDetails';
 
   function App() {
     /* var x=100;
@@ -37,6 +37,9 @@ import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
                 </Route>
                 <Route exact path="/test">
                     <Test/>
+                </Route>
+                <Route path="/list/:id">
+                    <ListDetails/>
                 </Route>
             </Switch>
           </div>
