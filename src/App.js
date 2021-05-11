@@ -30,17 +30,21 @@ import ListDetails from './Components/ListDetails';
           <div className="main-paths">
             <Switch>
                 <Route exact path="/teams">
-                    <Teams/>
+                  <Teams/>  
                 </Route>
+
+                <Route  path="/teams/:id">
+                  <ListDetails/>  
+                </Route>
+
                 <Route exact path="/list">
                     <ListsOp/>
                 </Route>
+
                 <Route exact path="/test">
                     <Test/>
                 </Route>
-                <Route path="/list/:id">
-                    <ListDetails/>
-                </Route>
+
             </Switch>
           </div>
 
