@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import PropsEg from './PropsExample';
 import './CSS/MultipleComponents2.css'
-import { Link } from 'react-router-dom';
 
 
 const ListsOp = () => {
@@ -53,10 +52,8 @@ const ListsOp = () => {
             {/*Similar to for loop*/}
             {list.map(lst=>(
                 <div className="preview" key={lst.id}>
-                    <Link to={`/list/${lst.id}`}>
-                    <h2>The name is :: {lst.name} {lst.surname}</h2>
-                    <p>{lst.id}</p>
-                    </Link>
+                    <h2>The name is :: {lst.name} {lst.surname}</h2><br></br>
+                    <p>{lst.id}</p><br></br>
                 </div>
             ))
             }
