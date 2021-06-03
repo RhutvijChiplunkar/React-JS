@@ -1,63 +1,74 @@
-{   
-    "IPLteams":[
-        {   "id":0,
-            "name":"RCB", 
-            "captain":"Kohli",
-            "rank":1,
-            "trophies":0
-        },
-        {
-            "id":1,
-            "name":"CSK", 
-            "captain":"Dhoni",
-            "rank":2,
-            "trophies":3
-        },
-        {   
-            "id":2,
-            "name":"MI", 
-            "captain":"Sharma",
-            "rank":3,
-            "trophies":5
-        },
-        {   
-            "id":3,
-            "name":"PBKS", 
-            "captain":"Rahul",
-            "rank":4,
-            "trophies":0
-        },
-        {
-            "id":4,
-            "name":"DC", 
-            "captain":"Pant",
-            "rank":5,
-            "trophies":0
-        },
-        
-        {
-            "id":5,
-            "name":"KKR", 
-            "captain":"Morgan",
-            "rank":6,
-            "trophies":2
-        },
-        
-        {
-            "id":6,
-            "name":"RR", 
-            "captain":"Sanju",
-            "rank":7,
-            "trophies":1
-        },
-        
-        {
-            "id":7,
-            "name":"SRH", 
-            "captain":"Warner",
-            "rank":8,
-            "trophies":2
-        }        
-        
-    ]
+{
+  "IPLteams": [
+    {
+      "id": 0,
+      "name": "RCB",
+      "captain": "Kohli",
+      "rank": 1,
+      "trophies": 0
+    },
+    {
+      "id": 1,
+      "name": "CSK",
+      "captain": "Dhoni",
+      "rank": 2,
+      "trophies": 3
+    },
+    {
+      "id": 2,
+      "name": "MI",
+      "captain": "Sharma",
+      "rank": 3,
+      "trophies": 5
+    },
+    {
+      "id": 3,
+      "name": "PBKS",
+      "captain": "Rahul",
+      "rank": 4,
+      "trophies": 0
+    },
+    {
+      "id": 4,
+      "name": "DC",
+      "captain": "Pant",
+      "rank": 5,
+      "trophies": 0
+    },
+    {
+      "id": 5,
+      "name": "KKR",
+      "captain": "Morgan",
+      "rank": 6,
+      "trophies": 2
+    },
+    {
+      "id": 6,
+      "name": "RR",
+      "captain": "Sanju",
+      "rank": 7,
+      "trophies": 1
+    },
+    {
+      "id": 7,
+      "name": "SRH",
+      "captain": "Warner",
+      "rank": 8,
+      "trophies": 2
+    },
+    {
+      "id": "10",
+      "name": "KPS",
+      "captain": "Bumrah",
+      "rank": "9",
+      "trophies": "2"
+    },
+    {
+      "id": "556",
+      "name": "pbi",
+      "captain": "p8fcv",
+      "rank": "95",
+      "trophies": "3"
+    }
+  ]
 }
