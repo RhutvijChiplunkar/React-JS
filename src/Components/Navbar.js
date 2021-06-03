@@ -8,8 +8,10 @@ const Navbar= () => {
             <Link to="/list">LISTS</Link>
             <Link to="teams">TEAMS</Link>
             <Link to="/test">TEST</Link>
+            {/* <Link to="/forms">FORMS</Link> */}
+            <Link to="/addTeam">ADD A TEAM</Link>
         </div> 
     );
 }
  
-export default Navbar;
+export default Navbar;      
