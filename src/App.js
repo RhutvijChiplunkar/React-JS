@@ -28,10 +28,6 @@ import AddTeam from './Components/IPLforms';
           <div className="title">
              <h1>Welcome to React JS</h1> 
           </div>
-
-          <div>
-            <h1>This is the home page :)</h1>
-          </div>
           
           <div className="main-paths">
             <Switch>
