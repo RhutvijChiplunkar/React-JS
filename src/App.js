@@ -11,6 +11,7 @@ import './index.css'
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
 import ListDetails from './Components/ListDetails';
 import AddTeam from './Components/IPLforms';
+import NotFound from  './Components/NotFound';
 
   function App() {
     /* var x=100;
@@ -53,6 +54,10 @@ import AddTeam from './Components/IPLforms';
 
                 <Route exact path="/addTeam">
                   <AddTeam/>  
+                </Route>
+
+                <Route path="*">
+                  <NotFound/>
                 </Route>
 
             </Switch>
