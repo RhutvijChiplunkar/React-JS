@@ -1,7 +1,21 @@
 .preview{
     border: 2px black;
     border-radius: 5px;
+    align-items: center;
+    margin: auto;
+}
+
+.preview h2{
+    text-align: center;
+    color: orangered;
+}
+
+
+.preview p{
+    text-align: center;
     color: red;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .IPLteams{

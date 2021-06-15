@@ -6,7 +6,7 @@
   left: 0px;
   height: 30px;
 }
-a{
+.nav-bar a{
   color: red;
   font-size: 20px;
   text-align: left;
@@ -17,7 +17,7 @@ a{
   float:left;
 }
 
-a:hover{
+.nav-bar a:hover{
   background-color: black;
   color: aliceblue;
 }
