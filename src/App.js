@@ -12,6 +12,7 @@ import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
 import ListDetails from './Components/ListDetails';
 import AddTeam from './Components/IPLforms';
 import NotFound from  './Components/NotFound';
+import Home from './Components/Home'
 
   function App() {
     /* var x=100;
@@ -25,13 +26,13 @@ import NotFound from  './Components/NotFound';
           <div className="nv">
             <Navbar/>
           </div>
-
-          <div className="title">
-             <h1>Welcome to React JS</h1> 
-          </div>
-          
+                 
           <div className="main-paths">
             <Switch>
+                <Route exact path="/">
+                    <Home/>  
+                </Route>
+
                 <Route exact path="/teams">
                   <Teams/>  
                 </Route>
