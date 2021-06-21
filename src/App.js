@@ -65,6 +65,11 @@ import Home from './Components/Home'
           </div>
 
         </div>
+
+        <div className="footer">
+          <h2 style={{position:'absolute',color:'red',textAlign:'center',bottom:'0px',
+          background:'black',margin:'auto',left:'40%',right:'40%'}}>Footer example</h2>
+        </div>
       </Router>
   );
 }
